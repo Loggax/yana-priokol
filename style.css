@@ -2,3 +2,10 @@ img, audio {
     display: flex;
     margin: 0 auto;
 }
+
+@Media screen and (max-width: 600px) {
+    img {
+        width: 300px;
+    }
+}
+
